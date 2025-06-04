@@ -1,7 +1,9 @@
+/* Main page build */
 body{
     padding: 0;
     margin:0;
     font-family: 'Courier New', Courier, monospace;
+    
 }
 
 #header{
@@ -72,7 +74,7 @@ padding-top     : 6px;
 #main{ 
     margin-top: 119px;
     background: url("images/map-blur.png");
-    background-repeat: repeat-y;
+    background-repeat: repeat-x;
 }
 
 #content{
@@ -115,4 +117,25 @@ a.info-box{
     float: right;
     margin: 25px;
     height: 40px;
+}
+
+/* =============================================================*/
+
+/* ==========           Animal Pages Edit            ==========*/
+
+#info-box-full{
+    background-color: rgba(185,185,185,.5);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+#info-box-full img{
+    width: 100%;
+}
+
+#info-box-full h3{
+    text-align: center;
 }
