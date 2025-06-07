@@ -50,6 +50,13 @@ body{
 margin-top: 120px;
 }
 
+#main-home img{
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
 #tabs-bottom{
 position : fixed;
 bottom   : 0;
@@ -73,8 +80,11 @@ padding-top     : 6px;
 
 #main{ 
     margin-top: 119px;
-    background: url("images/map-blur.png");
-    background-repeat: repeat-x;
+    background-image:  url("images/map-blur.png");
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-position: center; 
+
 }
 
 #content{
@@ -94,6 +104,7 @@ a.info-box{
 }
 
 .info-box img{
+    width: 80px;
     height: 80px;
     float: left;
     margin: 10px;
