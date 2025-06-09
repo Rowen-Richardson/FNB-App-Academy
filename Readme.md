@@ -14,7 +14,7 @@ Welcome to the FNB App Academy project repository! This document outlines the pr
 ## Week 3: Pine City Zoo App (In Progress)
 - Started building the Pine City Zoo web application.
 - Implemented initial HTML and CSS structure.
-- Project is ongoing and not yet complete.
+- Created a Feedback form and pages that lead to different pages
 
 ---
 
