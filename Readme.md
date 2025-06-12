@@ -11,10 +11,18 @@ Welcome to the FNB App Academy project repository! This document outlines the pr
 - Explored selectors, properties, and values.
 - Applied layouts, colors, fonts, and spacing to web pages.
 
-## Week 3: Pine City Zoo App (In Progress)
-- Started building the Pine City Zoo web application.
-- Implemented initial HTML and CSS structure.
-- Project is ongoing and not yet complete.
+
+## Week 3: Pine City Zoo App (Completed)
+- Built a full-featured Pine City Zoo web application.
+- Created multiple HTML pages for animal exhibits (elephants, giraffes, koalas, monkeys, pandas, lions, gemsbok, gorillas, warthogs) with detailed information and images.
+- Developed place pages for zoo attractions (amphitheatre, insect house, monkey trail, coffee shop, lost forest, Mo's Pizza, Dine @The Zoo) with descriptions and locations.
+- Designed a weather page showing current and forecasted weather at the zoo.
+- Added a feedback form and confirmation page for visitor input.
+- Implemented a navigation system with top and bottom tabs for easy access to animals, places, map, weather, and feedback.
+- Applied a custom CSS theme for consistent styling and layout across all pages.
+
+## Week 4: JavaScript (In Progress)
+- Currently working on JavaScript fundamentals, including variable scope, functions, and basic scripting concepts.
 
 ---
 
