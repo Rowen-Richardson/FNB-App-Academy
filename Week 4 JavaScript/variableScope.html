@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable_Scope</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>
+
+        //Creating a Global Variable with a function
+        
+        var myGloablVariable = 500 + " This is a global variable";
+        myGloablFunction();
+        
+        function myGloablFunction() {
+            document.getElementById("demo").innerHTML = myGloablVariable;
+        }
+
+        
+
+    </script>
+
+</body>
+</html>

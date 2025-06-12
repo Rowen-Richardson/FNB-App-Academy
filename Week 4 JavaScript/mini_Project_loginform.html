@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Login Form</title>
+</head>
+<body>
+
+    <h1>Welcome to the Mzansi Verse</h1>
+
+    <form>
+        
+        <h2>Login Form</h2>
+
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <p id="message"></p><br>
+
+        <button type="button" onclick="userVerification()">Login</button>
+
+    </form>
+
+    <script>
+
+
+        function userVerification(){
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            testUserCreds(username, password);
+        }
+
+        function testUserCreds(username, password){
+            var systemtestUsername = "Batman";
+            var systemtestPassword = "James_Bond 97";
+
+            if(username == systemtestUsername && password == systemtestPassword){
+                document.getElementById("message").innerHTML = "Welcome to the Mzansi Verse, You have successfully logged in!...";
+            }
+
+            else {
+                document.getElementById("message").innerHTML = "Incorrect Username or Password, Please try again, to gain access to the Mzansi Verse!";
+            }
+        }
+
+    </script>
+</body>
+</html>
