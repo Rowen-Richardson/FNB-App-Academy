@@ -11,7 +11,24 @@
 
     <script>
 
+        var text1 = "28";
+        var text2 = "2";
+
+        var num1 = stringToNumber(text1);
+        var num2 = stringToNumber(text2);
         
+        if (isNaN(num1) || isNaN(num2)) {
+            document.getElementById("outputText").innerHTML = "Please try entering numbers only.";
+        }
+            else{
+                document.getElementById("outputText").innerHTML = num1 / num2;
+            }
+
+        
+
+        function stringToNumber(text){
+            return parseInt(text);
+        }
         
     </script>
 
