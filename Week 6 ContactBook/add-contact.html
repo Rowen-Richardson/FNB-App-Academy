@@ -6,6 +6,72 @@
     <title>Add Contact</title>
 </head>
 <body>
-    
+
+    <form id="editForm">
+    <label for="firstName">First Name:</label>
+    <input type="First Name" id="firstName" placeholder="First Name" required>
+    <br><br>
+
+    <label for="lastName">Last Name:</label>
+    <input type="Last Name" id="lastName" placeholder="Last Name" required>
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Email" required>
+    <br><br>
+
+    <label for="phone">Mobile:</label>
+    <input type="tel" id="phone" placeholder="Mobile" required>
+    <br><br>
+    <button type="submit" id="submit">Submit</button>
+    <br><br>
+    </form>
+
+    <button id="homeLink" type="button">Home</button>
+
+    <script  src="config.js">
+    </script>
+
+    <script>
+
+        document.getElementById("submit").addEventListener('click', submitform);
+        document.getElementById("homeLink").addEventListener('click', homeLink);
+
+        function submitform(e){
+            e.preventDefault();
+            
+            const form = new FormData(document.querySelector("#editForm"));
+
+            form.append('apiKey', apiKey);
+
+            fetch(rootPath + "controller/insert-contact/", {
+                method: 'POST',
+                headers:{'Accept': 'application/json, *.*'},
+                body: form
+            })
+
+            .then(function(response){
+                return response.text();
+            })
+
+           .then (function(data){
+            if(data == "1"){
+                alert("Contact added.");
+                homeLink();
+            }
+
+            else {
+                alert(data + "Request failed!");
+                homeLink();
+            }
+           })
+
+        }
+
+        function homeLink(){
+            window.open("home-page.html", "_self");
+        }
+    </script>
+
 </body>
 </html>
