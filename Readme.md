@@ -11,13 +11,6 @@ Welcome to the FNB App Academy project repository! This document outlines the pr
 - Explored selectors, properties, and values.
 - Applied layouts, colors, fonts, and spacing to web pages.
 
-<<<<<<< HEAD
-## Week 3: Pine City Zoo App (In Progress)
-- Started building the Pine City Zoo web application.
-- Implemented initial HTML and CSS structure.
-- Project is ongoing and not yet complete.
-=======
-
 ## Week 3: Pine City Zoo App
 - Built a full-featured Pine City Zoo web application.
 - Created multiple HTML pages for animal exhibits (elephants, giraffes, koalas, monkeys, pandas, lions, gemsbok, gorillas, warthogs) with detailed information and images.
@@ -48,8 +41,5 @@ Welcome to the FNB App Academy project repository! This document outlines the pr
 - Fetched and displayed contacts from a remote API, including avatar images styled as circles.
 - Added features to refresh and add new contacts.
 - Used modular JavaScript (with config.js) for configuration and API management.
->>>>>>> Working_FNB_Branch_v1
-
----
 
 This README will be updated as the course progresses and more features are added.
