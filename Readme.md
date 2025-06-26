@@ -42,6 +42,19 @@ Welcome to the FNB App Academy project repository! This document outlines the pr
 - Fetched and displayed contacts from a remote API, including avatar images styled as circles.
 - Added features to refresh and add new contacts.
 - Used modular JavaScript (with config.js) for configuration and API management.
+- Created `add-contact.html` with a form for First Name, Last Name, Mobile, Email, and Profile Image (avatar upload).
+- Ensured all form fields use correct `type` and `name` attributes for backend compatibility.
+- Used JavaScript to collect form data with `FormData`, including file uploads.
+- Added client-side validation to restrict image uploads to 2MB or less.
+- Submitted new contacts to the backend via a POST request and handled success/failure feedback.
+- Updated `home-page.html` to display all contacts in a table, showing avatar, first name, and last name.
+- Enabled clicking a contact row to open the edit page for that contact.
+- Created `edit-contact.html` to view, edit, and delete contacts:
+  - Fetched contact details by ID and populated the form.
+  - Provided an Edit button to enable form fields and allow updating contact info and avatar.
+  - Provided a Delete button to remove the contact after confirmation.
+- Ensured all navigation between pages works smoothly.
+- Improved error handling and user feedback throughout the app.
 
 ---
 
