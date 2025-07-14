@@ -41,6 +41,7 @@ Welcome to the FNB App Academy project repository! This document outlines the pr
 - Fetched and displayed contacts from a remote API, including avatar images styled as circles.
 - Added features to refresh and add new contacts.
 - Used modular JavaScript (with config.js) for configuration and API management.
+<<<<<<< HEAD
 - Created `add-contact.html` with a form for First Name, Last Name, Mobile, Email, and Profile Image (avatar upload).
 - Ensured all form fields use correct `type` and `name` attributes for backend compatibility.
 - Used JavaScript to collect form data with `FormData`, including file uploads.
@@ -77,5 +78,7 @@ Welcome to the FNB App Academy project repository! This document outlines the pr
 - Successfully completed all modules, gaining proficiency in both front-end and introductory back-end development.
 
 ---
+=======
+>>>>>>> 7a01eac01a17b11308514e8de426ef3ddc20d8f2
 
 This document summarizes the work completed during the FNB App Academy.
