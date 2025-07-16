@@ -78,7 +78,5 @@ Welcome to the FNB App Academy project repository! This document outlines the pr
 - Successfully completed all modules, gaining proficiency in both front-end and introductory back-end development.
 
 ---
-=======
->>>>>>> 7a01eac01a17b11308514e8de426ef3ddc20d8f2
 
 This document summarizes the work completed during the FNB App Academy.
